@@ -96,14 +96,23 @@ Big-O gösterimi: O(nlogn)
 ### Cevap 1:
 
 Root : 7 olsun...
+
 5, 7 nin solunda
+
 1, 7 nin solunda 5 in solunda
-8, 7 nin sağında,
+
+8, 7 nin sağında
+
 3, 7 nin solunda, 5 in solunda, 1 in sağında
+
 6, 7 nin solunda, 5 in sağında
+
 0, 7 nin solunda, 5 in solunda, 1 in solunda
+
 9, 7 nin sağında, 8 in sağında
+
 4, 7 nin solunda, 5 in solunda, 1 in sağında, 3 ün sağında
+
 2, 7 nin solunda, 5 in solunda, 1 in sağında, 3 ün solunda
 
 
