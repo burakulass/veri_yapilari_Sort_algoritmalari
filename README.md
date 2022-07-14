@@ -31,7 +31,7 @@ A= [22,27,16,2,18,6]
 + Best Case : [2,6,16,18,22,27]
 + Worst Case: [27,22,18,16,6,2]
 
-## Cevap 4:
+### Cevap 4:
 + 18 Sayısı dizi sıralandıktan sonra ortada olduğu için AVARAGE CASE olur.
 
 ### Cevap 5:
@@ -80,3 +80,37 @@ C= [16,21,11,8,12,22]
 ### Cevap 2:
 
 Big-O gösterimi: O(nlogn)
+
+
+
+
+
+
+
+## Binary Search Tree Projesi
+
+1. [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+### Cevap 1:
+
+Root : 7 olsun...
+5, 7 nin solunda
+1, 7 nin solunda 5 in solunda
+8, 7 nin sağında,
+3, 7 nin solunda, 5 in solunda, 1 in sağında
+6, 7 nin solunda, 5 in sağında
+0, 7 nin solunda, 5 in solunda, 1 in solunda
+9, 7 nin sağında, 8 in sağında
+4, 7 nin solunda, 5 in solunda, 1 in sağında, 3 ün sağında
+2, 7 nin solunda, 5 in solunda, 1 in sağında, 3 ün solunda
+
+
+
+
+                                    7
+                         5                    8
+                1                 6                          9
+        0             3
+                 2          4
